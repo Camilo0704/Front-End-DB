@@ -20,7 +20,7 @@ body, html {
 }
 .Personaje{
     position: absolute;
-    top: 58%;
+    top: 61%;
     left: 23%;
     transform: translate(-50%, -50%);
     max-width: 100%;
