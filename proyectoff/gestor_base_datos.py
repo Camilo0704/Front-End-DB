@@ -18,10 +18,13 @@ class DatabaseManager:
     def fetch_results(self):
         return self.cursor.fetchall()
 
-    def call_procedure(self, procedure_name, params=None):
+    def call_procedure(self, procedure_name, params=()):
         self.cursor.callproc(procedure_name, params)
         self.connection.commit()
-        return self.cursor.stored_results()
+        results = []
+        for result in self.cursor.stored_results():
+            results.extend(result.fetchall())
+        return results
 
     def close(self):
         self.cursor.close()
