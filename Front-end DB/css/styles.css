@@ -1,0 +1,621 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.img-fondo {
+    background-image: url('../img/fondo.png');
+    background-size: 42%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.imagen-superpuesta {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+.Personaje{
+    position: absolute;
+    top: 58%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+.Personaje2{
+    position: absolute;
+    top: 59%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: auto;
+}
+.Boton1{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: auto;
+    transition: transform 0.3s;
+}
+.Boton1:hover {
+    transform: translate(-50%, -50%) scale(1.1); 
+}
+.Titulo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 17%;
+    height: auto;
+}
+
+.menu-opciones {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+.opcion1, .opcion2, .opcion3, .opcion4, .opcion5, .opcion6, .opcion7 {
+    opacity: 0.8; 
+    transition: opacity 0.3s; 
+}
+.menu-opciones img:hover {
+    opacity: 2; 
+    transform: scale(1.1);
+}
+.menu-opciones li {
+    margin: 10px 0;
+}
+.Volver{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: auto;
+}
+.Volver img:hover{
+    transform: scale(1.1);
+}
+.Formulario{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: auto;
+}
+.input1{
+    position: absolute;
+    top: 28%;
+    left: 17%;
+    width: 17%;
+    height: 3%;
+    border-radius: 10px;
+}
+.input2{
+    position: absolute;
+    top: 33.5%;
+    left: 17%;
+    width: 17%;
+    height: 3%;
+    border-radius: 10px;
+}
+.input3{
+    position: absolute;
+    top: 39%;
+    left: 22%;
+    width: 12%;
+    height: 3%;
+    border-radius: 10px;
+}
+.input4{
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    width: 17%;
+    height: 3%;
+    border-radius: 10px;
+}
+.input5{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    width: 12%;
+    height: 3%;
+    border-radius: 10px;
+}
+.input{
+    position: absolute;
+    top: 28%;
+    left: 17%;
+    width: 17%;
+    height: 3%;
+    border-radius: 10px;
+}
+.BtnRegistrar{
+    position: absolute;
+    top: 59%;
+    left: 2%;
+    width: 18%;
+    height: auto;
+}
+.BtnLimpiar{
+    position: absolute;
+    top: 59%;
+    left: 20%;
+    background: none;
+    border: none; 
+}
+.BtnLimpiar:hover, .BtnRegistrar:hover{
+    transform: scale(1.1);
+}
+.Lista1{
+    position: absolute;
+    top: 38%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: auto;
+}
+.TitleMundos{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+}
+.Datos{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+}
+.inputName{
+    position: absolute;
+    top: 19.5%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 3%;
+    border-radius: 10px;
+    background: none;
+    border: none; 
+}
+.inputUbi{
+    position: absolute;
+    top: 32.5%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 3%;
+    border-radius: 10px;
+    background: none;
+    border: none; 
+}
+.TablaUbicaciones{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto;
+    opacity: 0.8; 
+}
+.BtnConexiom{
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    width: 32%;
+    height: auto;
+}
+.BtnCrear{
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    width: 18%;
+    height: auto;
+}
+.BtnCrear:hover, .BtnConexiom:hover{
+    transform: scale(1.1);
+}
+.horizontal-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 72%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+.horizontal-list li {
+    margin: 0 10px;
+}
+.horizontal-list img {
+    width: 70px; 
+    height: auto; 
+}
+.horizontal-list2 {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 59%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+.horizontal-list2 li {
+    margin: 0 10px;
+}
+.horizontal-list2 img {
+    width: 70px; 
+    height: auto; 
+}
+.TitleInventario{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+}
+.NamePlayer{
+    position: absolute;
+    top: 22%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: auto;
+}
+.inputName1{
+    position: absolute;
+    top: 22%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 5%;
+    background: none;
+    font-size: 30px;
+    border: none; 
+}
+.Inventario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+    opacity: 0.8; 
+}
+.BtnAñadir{
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    width: 18%;
+    height: auto;
+}
+.BtnModificar{
+    position: absolute;
+    top: 85%;
+    left: 57%;
+    width: 18%;
+    height: auto;
+}
+.BtnAñadir:hover, .BtnModificar:hover{
+    transform: scale(1.1);
+}
+.Delete{
+    position: absolute;
+    top: 42%;
+    left: 78%;
+    width: 5%;
+    height: auto;
+    opacity: 0.8; 
+}
+.Delete:hover {
+    opacity: 2; 
+}
+.Delete1{
+    position: absolute;
+    top: 58%;
+    left: 78%;
+    width: 5%;
+    height: auto;
+    opacity: 0.8; 
+}
+.Delete1:hover {
+    opacity: 2; 
+}
+.TitlePartidas{  
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+}
+.Team1{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+}
+.Team2{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+}
+.Details{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+    opacity: 0.8; 
+}
+.TitleRanking{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+}
+.ListPlayers{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+    opacity: 0.8; 
+}
+.scrollbar{ 
+    position: absolute;
+    top: 45%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    width: 1%;
+    height: auto;
+    opacity: 0.8; 
+}
+.TitleUsuarios{ 
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+}
+.Players{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+    opacity: 0.9;
+}
+.BtnMover{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    width: 18%;
+    height: auto;
+}
+.BtnMover:hover{
+    transform: scale(1.1);
+}
+.Consultas{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+}
+.consultassql{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+}
+.InputConsulta{
+    position: absolute;
+    top: 25%;
+    left: 57.5%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 3%;
+    background: none;
+    font-size: 20px;
+    border: none;   
+}
+.VerInventarios{
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+.PartidasDate{
+    position: absolute;
+    top: 5%;
+    left: 72.5%;
+
+}
+.Top10{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.Consultapaper{
+    position: absolute;
+    top: 45%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    width: 18%;
+    height: auto;
+    opacity: 0.8; 
+}
+.Consultapaper2{
+    position: absolute;
+    top: 48%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: auto;
+    opacity: 0.8; 
+}
+.Consultapaper3{
+    position: absolute;
+    top: 75%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    width: 18%;
+    height: auto;
+    opacity: 0.8; 
+}
+.Top10:hover, .VerInventarios:hover, .PartidasDate:hover{
+    transform: scale(1.1);
+}
+.BtnEnviar{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    width: 20%;
+    height: auto;
+}
+.BtnLimpiar1{
+    position: absolute;
+    top: 85%;
+    left: 63%;
+    width: 22%;
+    height: auto;
+}
+.BtnEnviar:hover, .BtnLimpiar1:hover{
+    transform: scale(1.1);
+}
+.BtnDelete1{
+    position: absolute;
+    top: 31.3%;
+    left: 87.3%;
+    width: 5%;
+    height: auto;
+}
+.BtnEdit1{
+    position: absolute;
+    top: 31.3%;
+    left: 82%;
+    width: 5%;
+    height: auto;
+}
+.BtnDelete2{
+    position: absolute;
+    top: 41%;
+    left: 87.3%;
+    width: 5%;
+    height: auto;
+}
+.BtnDelete3{
+    position: absolute;
+    top: 51%;
+    left: 87.3%;
+    width: 5%;
+    height: auto;
+}
+.BtnEdit2{
+    position: absolute;
+    top: 41%;
+    left: 82%;
+    width: 5%;
+    height: auto;
+}
+.BtnEdit3{
+    position: absolute;
+    top: 51%;
+    left: 82%;
+    width: 5%;
+    height: auto;
+}
+.BtnEdit1:hover, .BtnDelete1:hover, .BtnEdit2:hover, .BtnDelete2:hover, .BtnEdit3:hover, .BtnDelete3:hover{
+    transform: scale(1.1);
+}
+.BtnDelete:hover{
+    opacity: 0.8; 
+    transition: opacity 0.3s; 
+}
+.BtnEdit:hover{
+    opacity: 0.8; 
+    transition: opacity 0.3s; 
+}
+.FlechaDerecha{ 
+    position: absolute;
+    top: 36.5%;
+    left: 65.9%;
+    width: 3%;
+    height: auto;
+}
+.FlechaDerecha:hover{
+    transform: translateX(10px);
+    transition: transform 0.3s;
+}
+.FlechaIzquierda{ 
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    width: 3%;
+    height: auto;
+}
+.FlechaIzquierda:hover{
+    transform: translateX(-10px);
+    transition: transform 0.3s;
+}
+.FlechaDerecha1{ 
+    position: absolute;
+    top: 54.6%;
+    left: 65.9%;
+    width: 3%;
+    height: auto;
+}
+.FlechaDerecha1:hover{
+    transform: translateX(10px);
+    transition: transform 0.3s;
+}
+.FlechaIzquierda1{ 
+    position: absolute;
+    top: 54.8%;
+    left: 45%;
+    width: 3%;
+    height: auto;
+}
+.FlechaIzquierda1:hover{
+    transform: translateX(-10px);
+    transition: transform 0.3s;
+}
